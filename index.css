@@ -76,6 +76,10 @@ body {
     overflow-x: hidden;
 }
 
+.d-none {
+  display: none;
+}
+
 .row {
     max-width: var(--container-max-width);
     margin: 0 auto;

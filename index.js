@@ -1,5 +1,5 @@
 /* -----------------------------------------
-  Have focus outline only for keyboard users 
+  Have focus outline only for keyboard users
  ---------------------------------------- */
 
 const handleFirstTab = (e) => {
@@ -41,3 +41,47 @@ window.addEventListener("scroll", () => {
     alterStyles(isBackToTopRendered);
   }
 });
+
+// function switchLanguage() {
+//   var button = document.getElementById("switchLanguageButton");
+//   if (button.innerText === "Français") {
+//     button.innerText = "English";
+//     document.documentElement.lang = "fr";
+//     showFrenchElements();
+//     hideEnglishElements();
+//   } else {
+//     button.innerText = "Français";
+//     document.documentElement.lang = "en";
+//     hideFrenchElements();
+//     showEnglishElements();
+//   };
+// }
+
+// function hideFrenchElements() {
+//   var frenchElements = document.querySelectorAll('[lang="fr"]');
+//   for (var i = 0; i < frenchElements.length; i++) {
+//     frenchElements[i].classList.add('d-none');
+//   }
+// }
+
+
+// function showFrenchElements() {
+//   var frenchElements = document.querySelectorAll('[lang="fr"]');
+//   for (var i = 0; i < frenchElements.length; i++) {
+//     frenchElements[i].classList.remove('d-none');
+//   }
+// }
+
+// function hideEnglishElements() {
+//   var englishElements = document.querySelectorAll('[lang="en"]');
+//   for (var i = 0; i < englishElements.length; i++) {
+//     englishElements[i].classList.add('d-none');
+//   }
+// }
+
+// function showEnglishElements() {
+//   var englishElements = document.querySelectorAll('[lang="en"]');
+//   for (var i = 0; i < englishElements.length; i++) {
+//     englishElements[i].classList.remove('d-none');
+//   }
+// }
